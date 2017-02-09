@@ -1,0 +1,4 @@
+C:\Users\smalur\native_script\Vessel-Pro\platforms\android\src\main\assets\app\pages\clientMaster\clientmaster.component.js
+C:\Users\smalur\native_script\Vessel-Pro\platforms\android\src\main\assets\app\pages\login\login.component.js
+C:\Users\smalur\native_script\Vessel-Pro\platforms\android\src\main\assets\app\app.routing.js
+C:\Users\smalur\native_script\Vessel-Pro\platforms\android\src\main\assets\app\app.module.js

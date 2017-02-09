@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\smalur\native_script\Vessel-Pro\platforms\android\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="C:\Users\smalur\native_script\Vessel-Pro\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-appcompat-v7-23.4.0_e211b97448b1355cd2c5d1c5e6aef7673f3ed1e6.jar" />
+    </item>
+    <item
+        jar="C:\Users\smalur\AppData\Local\Android\android-sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="C:\Users\smalur\native_script\Vessel-Pro\platforms\android\build\intermediates\pre-dexed\F0\debug\support-annotations-23.4.0_9c614547208b2a9cdb045f3a97417e64a7ead883.jar" />
+    </item>
+    <item
+        jar="C:\Users\smalur\native_script\Vessel-Pro\platforms\android\build\intermediates\exploded-aar\VesselPro\runtime\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="632bf39700c28ba66c117628dab343126ef89551">
+        <dex dex="C:\Users\smalur\native_script\Vessel-Pro\platforms\android\build\intermediates\pre-dexed\F0\debug\VesselPro-runtime-unspecified_8888651d6b2a2cbbc3006755976979e1e4b465ac.jar" />
+    </item>
+    <item
+        jar="C:\Users\smalur\native_script\Vessel-Pro\platforms\android\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="C:\Users\smalur\native_script\Vessel-Pro\platforms\android\build\intermediates\pre-dexed\F0\debug\internal_impl-23.4.0_0ebe7f3c79f2443368c52e4bf7500f465942820b.jar" />
+    </item>
+    <item
+        jar="C:\Users\smalur\native_script\Vessel-Pro\platforms\android\build\intermediates\exploded-aar\widgets-release\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="8a73b09319cc3945912970487ced4c7724acc97d">
+        <dex dex="C:\Users\smalur\native_script\Vessel-Pro\platforms\android\build\intermediates\pre-dexed\F0\debug\intermediates-exploded-aar-widgets-release_93521c90875a672bebe8315e034202b7bfae9f54.jar" />
+    </item>
+    <item
+        jar="C:\Users\smalur\native_script\Vessel-Pro\platforms\android\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="C:\Users\smalur\native_script\Vessel-Pro\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-support-v4-23.4.0_0f9286af645ea801f9f4d7ef1af69dc5990349aa.jar" />
+    </item>
+    <item
+        jar="C:\Users\smalur\native_script\Vessel-Pro\platforms\android\build\intermediates\exploded-aar\com.android.support\design\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="C:\Users\smalur\native_script\Vessel-Pro\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-design-23.4.0_7378ea9929ad93ccc26127c1336c0e0de8e702ae.jar" />
+    </item>
+    <item
+        jar="C:\Users\smalur\native_script\Vessel-Pro\platforms\android\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="C:\Users\smalur\native_script\Vessel-Pro\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-recyclerview-v7-23.4.0_8716133dc551d0c3b8e7047154eaedb41d8b9300.jar" />
+    </item>
+    <item
+        jar="C:\Users\smalur\native_script\Vessel-Pro\platforms\android\build\intermediates\exploded-aar\VesselPro\runtime\unspecified\jars\libs\binding-generator.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="d82f3ca98719f09b65db6aeaf450ad3bafc46e81">
+        <dex dex="C:\Users\smalur\native_script\Vessel-Pro\platforms\android\build\intermediates\pre-dexed\F0\debug\binding-generator_4eacc868d44d16e568e58d9028aac016d4761123.jar" />
+    </item>
+    <item
+        jar="C:\Users\smalur\native_script\Vessel-Pro\platforms\android\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="C:\Users\smalur\native_script\Vessel-Pro\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-animated-vector-drawable-23.4.0_6f1086377a59d01ace2253e3691b724bf052c73d.jar" />
+    </item>
+    <item
+        jar="C:\Users\smalur\native_script\Vessel-Pro\platforms\android\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="C:\Users\smalur\native_script\Vessel-Pro\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-support-vector-drawable-23.4.0_1f62c977b7bc13946dc76d6a4152610c2d7b1929.jar" />
+    </item>
+
+</items>

@@ -2,27 +2,6 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\smalur\native_script\Vessel-Pro\platforms\android\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
-        jumboMode="false"
-        revision="25.0.2"
-        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
-        <dex dex="C:\Users\smalur\native_script\Vessel-Pro\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-appcompat-v7-23.4.0_e211b97448b1355cd2c5d1c5e6aef7673f3ed1e6.jar" />
-    </item>
-    <item
-        jar="C:\Users\smalur\AppData\Local\Android\android-sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
-        jumboMode="false"
-        revision="25.0.2"
-        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
-        <dex dex="C:\Users\smalur\native_script\Vessel-Pro\platforms\android\build\intermediates\pre-dexed\F0\debug\support-annotations-23.4.0_9c614547208b2a9cdb045f3a97417e64a7ead883.jar" />
-    </item>
-    <item
-        jar="C:\Users\smalur\native_script\Vessel-Pro\platforms\android\build\intermediates\exploded-aar\VesselPro\runtime\unspecified\jars\classes.jar"
-        jumboMode="false"
-        revision="25.0.2"
-        sha1="632bf39700c28ba66c117628dab343126ef89551">
-        <dex dex="C:\Users\smalur\native_script\Vessel-Pro\platforms\android\build\intermediates\pre-dexed\F0\debug\VesselPro-runtime-unspecified_8888651d6b2a2cbbc3006755976979e1e4b465ac.jar" />
-    </item>
-    <item
         jar="C:\Users\smalur\native_script\Vessel-Pro\platforms\android\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
         jumboMode="false"
         revision="25.0.2"
@@ -37,11 +16,32 @@
         <dex dex="C:\Users\smalur\native_script\Vessel-Pro\platforms\android\build\intermediates\pre-dexed\F0\debug\intermediates-exploded-aar-widgets-release_93521c90875a672bebe8315e034202b7bfae9f54.jar" />
     </item>
     <item
+        jar="C:\Users\smalur\native_script\Vessel-Pro\platforms\android\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="C:\Users\smalur\native_script\Vessel-Pro\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-appcompat-v7-23.4.0_e211b97448b1355cd2c5d1c5e6aef7673f3ed1e6.jar" />
+    </item>
+    <item
         jar="C:\Users\smalur\native_script\Vessel-Pro\platforms\android\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
         jumboMode="false"
         revision="25.0.2"
         sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
         <dex dex="C:\Users\smalur\native_script\Vessel-Pro\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-support-v4-23.4.0_0f9286af645ea801f9f4d7ef1af69dc5990349aa.jar" />
+    </item>
+    <item
+        jar="C:\Users\smalur\AppData\Local\Android\android-sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="C:\Users\smalur\native_script\Vessel-Pro\platforms\android\build\intermediates\pre-dexed\F0\debug\support-annotations-23.4.0_9c614547208b2a9cdb045f3a97417e64a7ead883.jar" />
+    </item>
+    <item
+        jar="C:\Users\smalur\native_script\Vessel-Pro\platforms\android\build\intermediates\exploded-aar\VesselPro\runtime\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="632bf39700c28ba66c117628dab343126ef89551">
+        <dex dex="C:\Users\smalur\native_script\Vessel-Pro\platforms\android\build\intermediates\pre-dexed\F0\debug\VesselPro-runtime-unspecified_8888651d6b2a2cbbc3006755976979e1e4b465ac.jar" />
     </item>
     <item
         jar="C:\Users\smalur\native_script\Vessel-Pro\platforms\android\build\intermediates\exploded-aar\com.android.support\design\23.4.0\jars\classes.jar"

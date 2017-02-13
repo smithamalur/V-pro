@@ -96,7 +96,7 @@ MERGED from [com.android.support:support-v4:23.4.0] C:\Users\smalur\native_scrip
 	android:allowBackup
 		ADDED from C:\Users\smalur\native_script\Vessel-Pro\platforms\android\src\main\AndroidManifest.xml:23:3-29
 	android:icon
-		ADDED from C:\Users\smalur\native_script\Vessel-Pro\platforms\android\src\main\AndroidManifest.xml:24:3-32
+		ADDED from C:\Users\smalur\native_script\Vessel-Pro\platforms\android\src\main\AndroidManifest.xml:24:3-39
 	android:theme
 		ADDED from C:\Users\smalur\native_script\Vessel-Pro\platforms\android\src\main\AndroidManifest.xml:26:3-34
 	android:name

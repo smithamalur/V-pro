@@ -20,7 +20,8 @@ import { TextField } from "ui/text-field";
 })
 export class LoginComponent implements OnInit {
   user: User;
-
+  isLoggingIn = true;
+  isAuthenticating = false;
 
   constructor(private router: Router,
     private loginService : LoginService,
@@ -33,26 +34,42 @@ export class LoginComponent implements OnInit {
   }
 
  
+ submit(){
 
-  login() {
-    if (getConnectionType() === connectionType.none) {
-      alert("Vessel-Pro requires an internet connection to log in.");
-      return;
-    }
+   alert("submitted");
+  //  this.isAuthenticating = true;
+  //   if (this.isLoggingIn) {
+  //     this.login();
+  //   }
+ }
 
-    this.loginService.login(this.user)
-      .subscribe( 
-        () => {
-         
-          this.router.navigate(["/"]);
-        },
-        (error) => {
-          alert("Unfortunately we could not find your account.");
-          
-        }
-      );
-  }
-   
-  }
+
+  //  login() {
+  //   if (getConnectionType() === connectionType.none) {
+  //     alert("Vessel-Pro requires an internet connection to log in.");
+  //     return;
+  //   }
+
+  //   try {
+  //     this.loginService.login(this.user)
+  //     .subscribe( 
+  //       () => {
+  //        this.isAuthenticating = false;
+  //         this.router.navigate(["/"]);
+  //       },
+  //       (error) => {
+  //         alert("Unfortunately we could not find your account.");
+  //         this.isAuthenticating = false;
+  //       }
+  //     );
+  //   } catch (error) {
+  //     console.log(error.message);
+  //   }
+    
+  
+
+  // }
+ }
+ 
 
 

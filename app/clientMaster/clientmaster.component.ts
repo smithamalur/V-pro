@@ -2,7 +2,13 @@ import { Component } from "@angular/core";
 
 @Component({
   selector: "clientmaster",
-  templateUrl: "pages/clientMaster/clientmaster.component.html",
-  styleUrls: ["pages/clientMaster/clientmaster.component.css"]
+  moduleId: module.id,
+  templateUrl: './clientmaster.component.html',
+  styleUrls: ["./clientmaster.component.css"]
 })
-export class ClientMasterComponent {}
+export class ClientMasterComponent {
+
+  constructor(){
+
+  }
+}

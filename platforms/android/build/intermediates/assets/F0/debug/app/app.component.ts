@@ -1,5 +1,4 @@
 import { Component } from "@angular/core";
-import { setStatusBarColors } from "./utils/status-bar-utils";
 
 
 @Component({
@@ -7,8 +6,6 @@ import { setStatusBarColors } from "./utils/status-bar-utils";
     templateUrl: "app.component.html",
 })
 export class AppComponent {
-   constructor() {
-    setStatusBarColors();
-  }  
+ 
  }
 

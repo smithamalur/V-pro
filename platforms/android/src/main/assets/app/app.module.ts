@@ -4,21 +4,28 @@ import { NativeScriptModule } from "nativescript-angular/nativescript.module";
 import { NativeScriptFormsModule } from "nativescript-angular/forms";
 import { NativeScriptHttpModule } from "nativescript-angular/http";
 import { NativeScriptRouterModule } from "nativescript-angular/router";
-
+import { setStatusBarColors, BackendService, LoginService } from "./shared";
+import { authProviders, appRoutes,navigatableComponents } from "./app.routing";
 import { AppRoutingModule } from "./app.routing";
 import { AppComponent } from "./app.component";
-import { routes, navigatableComponents } from "./app.routing";
+
+setStatusBarColors();
 
 @NgModule({
     bootstrap: [
         AppComponent
     ],
+    providers: [
+    BackendService,
+    LoginService,
+    authProviders
+  ],
     imports: [
         NativeScriptModule,
         NativeScriptFormsModule,
         NativeScriptHttpModule,
         NativeScriptRouterModule,
-        NativeScriptRouterModule.forRoot(routes),
+        NativeScriptRouterModule.forRoot(appRoutes),
         AppRoutingModule
     ],
     declarations: [

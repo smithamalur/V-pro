@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\smalur\\native_script\\Vessel-Pro\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\values-hdpi-v4\\values-hdpi-v4.xml",
+        "outputFile": "C:\\Users\\smalur\\Vessel-Pro\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\values-hdpi-v4\\values-hdpi-v4.xml",
         "map": [
             {
                 "to": {
@@ -12,7 +12,7 @@
                     "endOffset": 327
                 },
                 "from": {
-                    "file": "C:\\Users\\smalur\\native_script\\Vessel-Pro\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "file": "C:\\Users\\smalur\\Vessel-Pro\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,

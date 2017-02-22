@@ -1,0 +1,11 @@
+"use strict";
+var dialogsModule = require("ui/dialogs");
+function alert(message) {
+    return dialogsModule.alert({
+        title: "Vessel Pro",
+        okButtonText: "OK",
+        message: message
+    });
+}
+exports.alert = alert;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiZGlhbG9nLXV0aWxzLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiZGlhbG9nLXV0aWxzLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7QUFBQSwwQ0FBNEM7QUFFNUMsZUFBc0IsT0FBZTtJQUNuQyxNQUFNLENBQUMsYUFBYSxDQUFDLEtBQUssQ0FBQztRQUN6QixLQUFLLEVBQUUsWUFBWTtRQUNuQixZQUFZLEVBQUUsSUFBSTtRQUNsQixPQUFPLEVBQUUsT0FBTztLQUNqQixDQUFDLENBQUM7QUFDTCxDQUFDO0FBTkQsc0JBTUMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgKiBhcyBkaWFsb2dzTW9kdWxlIGZyb20gXCJ1aS9kaWFsb2dzXCI7XHJcblxyXG5leHBvcnQgZnVuY3Rpb24gYWxlcnQobWVzc2FnZTogc3RyaW5nKSB7XHJcbiAgcmV0dXJuIGRpYWxvZ3NNb2R1bGUuYWxlcnQoe1xyXG4gICAgdGl0bGU6IFwiVmVzc2VsIFByb1wiLFxyXG4gICAgb2tCdXR0b25UZXh0OiBcIk9LXCIsXHJcbiAgICBtZXNzYWdlOiBtZXNzYWdlXHJcbiAgfSk7XHJcbn0iXX0=

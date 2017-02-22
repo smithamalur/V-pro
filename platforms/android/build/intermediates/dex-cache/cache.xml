@@ -2,81 +2,116 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\smalur\native_script\Vessel-Pro\platforms\android\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jar="C:\Users\smalur\Vessel-Pro\platforms\android\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.1\jars\classes.jar"
         jumboMode="false"
         revision="25.0.2"
-        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
-        <dex dex="C:\Users\smalur\native_script\Vessel-Pro\platforms\android\build\intermediates\pre-dexed\F0\debug\internal_impl-23.4.0_0ebe7f3c79f2443368c52e4bf7500f465942820b.jar" />
+        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
+        <dex dex="C:\Users\smalur\Vessel-Pro\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-support-core-ui-25.1.1_3018940a43b80ee15897504ff84da169d9828996.jar" />
     </item>
     <item
-        jar="C:\Users\smalur\native_script\Vessel-Pro\platforms\android\build\intermediates\exploded-aar\widgets-release\jars\classes.jar"
+        jar="C:\Users\smalur\AppData\Local\Android\android-sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.1\support-annotations-25.1.1.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
+        <dex dex="C:\Users\smalur\Vessel-Pro\platforms\android\build\intermediates\pre-dexed\F0\debug\support-annotations-25.1.1_906141996ebe7c9739e78ef8cc872391fce3260a.jar" />
+    </item>
+    <item
+        jar="C:\Users\smalur\Vessel-Pro\platforms\android\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
+        <dex dex="C:\Users\smalur\Vessel-Pro\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-support-media-compat-25.1.1_12dbe802cbae4d0b9ec402d076e315dfcd40374a.jar" />
+    </item>
+    <item
+        jar="C:\Users\smalur\Vessel-Pro\platforms\android\build\intermediates\exploded-aar\com.android.support\transition\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="15b049fedbd8e3926bf99d9e45dfc9b2a1043bb9">
+        <dex dex="C:\Users\smalur\Vessel-Pro\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-transition-25.1.1_04700df8b8af47f64e4cc850fdcb0d61ab3bfc57.jar" />
+    </item>
+    <item
+        jar="C:\Users\smalur\Vessel-Pro\platforms\android\build\intermediates\exploded-aar\widgets-release\jars\classes.jar"
         jumboMode="false"
         revision="25.0.2"
         sha1="8a73b09319cc3945912970487ced4c7724acc97d">
-        <dex dex="C:\Users\smalur\native_script\Vessel-Pro\platforms\android\build\intermediates\pre-dexed\F0\debug\intermediates-exploded-aar-widgets-release_93521c90875a672bebe8315e034202b7bfae9f54.jar" />
+        <dex dex="C:\Users\smalur\Vessel-Pro\platforms\android\build\intermediates\pre-dexed\F0\debug\intermediates-exploded-aar-widgets-release_08c11205010caba9494399afde03ac01f8ef84f2.jar" />
     </item>
     <item
-        jar="C:\Users\smalur\native_script\Vessel-Pro\platforms\android\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jar="C:\Users\smalur\Vessel-Pro\platforms\android\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.1.1\jars\classes.jar"
         jumboMode="false"
         revision="25.0.2"
-        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
-        <dex dex="C:\Users\smalur\native_script\Vessel-Pro\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-appcompat-v7-23.4.0_e211b97448b1355cd2c5d1c5e6aef7673f3ed1e6.jar" />
+        sha1="c9649557905bf7a80fca9e0d54cbcb7662627860">
+        <dex dex="C:\Users\smalur\Vessel-Pro\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-recyclerview-v7-25.1.1_119ffbb4ad748b9043a89c100498d9690e8245da.jar" />
     </item>
     <item
-        jar="C:\Users\smalur\native_script\Vessel-Pro\platforms\android\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jar="C:\Users\smalur\Vessel-Pro\platforms\android\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.1\jars\classes.jar"
         jumboMode="false"
         revision="25.0.2"
-        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
-        <dex dex="C:\Users\smalur\native_script\Vessel-Pro\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-support-v4-23.4.0_0f9286af645ea801f9f4d7ef1af69dc5990349aa.jar" />
+        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
+        <dex dex="C:\Users\smalur\Vessel-Pro\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-support-core-utils-25.1.1_f24c5a618bac06535284bd3087925aef464b5e0c.jar" />
     </item>
     <item
-        jar="C:\Users\smalur\AppData\Local\Android\android-sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jar="C:\Users\smalur\Vessel-Pro\platforms\android\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.1\jars\classes.jar"
         jumboMode="false"
         revision="25.0.2"
-        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
-        <dex dex="C:\Users\smalur\native_script\Vessel-Pro\platforms\android\build\intermediates\pre-dexed\F0\debug\support-annotations-23.4.0_9c614547208b2a9cdb045f3a97417e64a7ead883.jar" />
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\smalur\Vessel-Pro\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-support-v4-25.1.1_4e3da54db8ac1d01921d7dd9e322a0f01af73cdc.jar" />
     </item>
     <item
-        jar="C:\Users\smalur\native_script\Vessel-Pro\platforms\android\build\intermediates\exploded-aar\VesselPro\runtime\unspecified\jars\classes.jar"
+        jar="C:\Users\smalur\Vessel-Pro\platforms\android\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.1\jars\classes.jar"
         jumboMode="false"
         revision="25.0.2"
-        sha1="632bf39700c28ba66c117628dab343126ef89551">
-        <dex dex="C:\Users\smalur\native_script\Vessel-Pro\platforms\android\build\intermediates\pre-dexed\F0\debug\VesselPro-runtime-unspecified_8888651d6b2a2cbbc3006755976979e1e4b465ac.jar" />
+        sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
+        <dex dex="C:\Users\smalur\Vessel-Pro\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-support-vector-drawable-25.1.1_ddf4570e9984851e5155690a408751e333dd243c.jar" />
     </item>
     <item
-        jar="C:\Users\smalur\native_script\Vessel-Pro\platforms\android\build\intermediates\exploded-aar\com.android.support\design\23.4.0\jars\classes.jar"
+        jar="C:\Users\smalur\Vessel-Pro\platforms\android\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.1\jars\classes.jar"
         jumboMode="false"
         revision="25.0.2"
-        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
-        <dex dex="C:\Users\smalur\native_script\Vessel-Pro\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-design-23.4.0_7378ea9929ad93ccc26127c1336c0e0de8e702ae.jar" />
+        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
+        <dex dex="C:\Users\smalur\Vessel-Pro\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-support-compat-25.1.1_71ed803665658dbbde137bbefa3ac1e107bf718a.jar" />
     </item>
     <item
-        jar="C:\Users\smalur\native_script\Vessel-Pro\platforms\android\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\jars\classes.jar"
+        jar="C:\Users\smalur\Vessel-Pro\platforms\android\build\intermediates\exploded-aar\com.android.support\design\25.1.1\jars\classes.jar"
         jumboMode="false"
         revision="25.0.2"
-        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
-        <dex dex="C:\Users\smalur\native_script\Vessel-Pro\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-recyclerview-v7-23.4.0_8716133dc551d0c3b8e7047154eaedb41d8b9300.jar" />
+        sha1="cd7951e04cfb9a8bf008d544a478d9a8d8192d38">
+        <dex dex="C:\Users\smalur\Vessel-Pro\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-design-25.1.1_db21468575871d294969ac290f4802e6e53f6bc0.jar" />
     </item>
     <item
-        jar="C:\Users\smalur\native_script\Vessel-Pro\platforms\android\build\intermediates\exploded-aar\VesselPro\runtime\unspecified\jars\libs\binding-generator.jar"
+        jar="C:\Users\smalur\Vessel-Pro\platforms\android\build\intermediates\exploded-aar\VesselPro\runtime\unspecified\jars\libs\binding-generator.jar"
         jumboMode="false"
         revision="25.0.2"
         sha1="d82f3ca98719f09b65db6aeaf450ad3bafc46e81">
-        <dex dex="C:\Users\smalur\native_script\Vessel-Pro\platforms\android\build\intermediates\pre-dexed\F0\debug\binding-generator_4eacc868d44d16e568e58d9028aac016d4761123.jar" />
+        <dex dex="C:\Users\smalur\Vessel-Pro\platforms\android\build\intermediates\pre-dexed\F0\debug\binding-generator_09ee89e1066bd40ba4edf083bf1f71afeb74cd96.jar" />
     </item>
     <item
-        jar="C:\Users\smalur\native_script\Vessel-Pro\platforms\android\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jar="C:\Users\smalur\Vessel-Pro\platforms\android\build\intermediates\exploded-aar\VesselPro\runtime\unspecified\jars\classes.jar"
         jumboMode="false"
         revision="25.0.2"
-        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
-        <dex dex="C:\Users\smalur\native_script\Vessel-Pro\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-animated-vector-drawable-23.4.0_6f1086377a59d01ace2253e3691b724bf052c73d.jar" />
+        sha1="632bf39700c28ba66c117628dab343126ef89551">
+        <dex dex="C:\Users\smalur\Vessel-Pro\platforms\android\build\intermediates\pre-dexed\F0\debug\VesselPro-runtime-unspecified_ab61c37acc07252b361788bbde4499fe9f14b140.jar" />
     </item>
     <item
-        jar="C:\Users\smalur\native_script\Vessel-Pro\platforms\android\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jar="C:\Users\smalur\Vessel-Pro\platforms\android\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.1\jars\classes.jar"
         jumboMode="false"
         revision="25.0.2"
-        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
-        <dex dex="C:\Users\smalur\native_script\Vessel-Pro\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-support-vector-drawable-23.4.0_1f62c977b7bc13946dc76d6a4152610c2d7b1929.jar" />
+        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
+        <dex dex="C:\Users\smalur\Vessel-Pro\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-appcompat-v7-25.1.1_091e9cfcf3d14a51aae21e803794bda948928240.jar" />
+    </item>
+    <item
+        jar="C:\Users\smalur\Vessel-Pro\platforms\android\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
+        <dex dex="C:\Users\smalur\Vessel-Pro\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-support-fragment-25.1.1_879cb193606e82b66e5aebe7fe0a462060f75f97.jar" />
+    </item>
+    <item
+        jar="C:\Users\smalur\Vessel-Pro\platforms\android\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
+        <dex dex="C:\Users\smalur\Vessel-Pro\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-animated-vector-drawable-25.1.1_2beb19024bfa78ed43f9bbc904e7c905d6a2e0c9.jar" />
     </item>
 
 </items>

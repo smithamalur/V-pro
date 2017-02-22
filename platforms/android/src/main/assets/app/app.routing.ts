@@ -1,12 +1,15 @@
 import { NgModule } from "@angular/core";
 import { NativeScriptRouterModule } from "nativescript-angular/router";
 import { Routes } from "@angular/router";
-import { LoginComponent } from "./pages/login/login.component";
-import { ClientMasterComponent } from "./pages/clientMaster/clientmaster.component";
+import { LoginComponent } from "./login/login.component";
+import { ClientMasterComponent } from "./clientMaster/clientmaster.component";
+import { AuthGuard } from "./auth-guard.service";
 
-
-export const routes = [
-    { path: "", component: LoginComponent },
+export const authProviders = [
+  AuthGuard
+];
+export const appRoutes = [
+    {path: "", component: LoginComponent },
     {path: "clientMaster", component: ClientMasterComponent}
    
 ];
@@ -19,7 +22,7 @@ export const navigatableComponents = [
 ];
 
 @NgModule({
-    imports: [NativeScriptRouterModule.forRoot(routes)],
+    imports: [NativeScriptRouterModule.forRoot(appRoutes)],
     exports: [NativeScriptRouterModule]
 })
 export class AppRoutingModule { }

@@ -10,7 +10,7 @@
         "spec": ">=1.0.2 <1.1.0",
         "type": "range"
       },
-      "C:\\Users\\smalur\\native_script\\Vessel-Pro"
+      "C:\\Users\\smalur\\Vessel-Pro"
     ]
   ],
   "_from": "nativescript-theme-core@>=1.0.2 <1.1.0",
@@ -44,7 +44,7 @@
   "_shasum": "712e80b702316abaa4e7d738825573f9e6bae658",
   "_shrinkwrap": null,
   "_spec": "nativescript-theme-core@~1.0.2",
-  "_where": "C:\\Users\\smalur\\native_script\\Vessel-Pro",
+  "_where": "C:\\Users\\smalur\\Vessel-Pro",
   "author": {
     "name": "Telerik",
     "email": "support@telerik.com"

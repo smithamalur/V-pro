@@ -10,7 +10,7 @@
         "spec": "2.4.3",
         "type": "version"
       },
-      "C:\\Users\\smalur\\native_script\\Vessel-Pro"
+      "C:\\Users\\smalur\\Vessel-Pro"
     ]
   ],
   "_from": "@angular/platform-browser@2.4.3",
@@ -45,7 +45,7 @@
   "_shasum": "eba8588d2fffc39d0b85a9180c297d9ca2f1f3a4",
   "_shrinkwrap": null,
   "_spec": "@angular/platform-browser@2.4.3",
-  "_where": "C:\\Users\\smalur\\native_script\\Vessel-Pro",
+  "_where": "C:\\Users\\smalur\\Vessel-Pro",
   "author": {
     "name": "angular"
   },

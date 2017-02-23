@@ -44,32 +44,39 @@ export class LoginComponent implements OnInit {
 
     login() {
       //alert("submitted");
-    //  if (getConnectionType() === connectionType.none) {
-    //    alert("Vessel-Pro requires an internet connection to log in.");
-    //    return;
-    //  }
+      try {
+         if (getConnectionType() === connectionType.none) {
+      alert("Vessel-Pro requires an internet connection to log in.");
+        return;
+      }
+      } catch (error) {
+        console.log(error);
+      }
+     
 
-    try {
-      this.loginService.login(this.user)
-      .subscribe( 
-        () => {
-         this.isAuthenticating = false;
-          //this.router.navigate(["clientMaster"]);
-        },
-        (error) => {
-          alert("Unfortunately we could not find your account.");
-          this.isAuthenticating = false;
-          //this.router.navigate(["clientMaster"]);
-        }
-      );
-    } catch (error) {
-      console.log(error.message);
-    }
+    // try {
+    //   this.loginService.login(this.user)
+    //   .subscribe( 
+    //     () => {
+    //     // this.isAuthenticating = false;
+    //      // this.router.navigate(["clientMaster"]);
+    //     },
+    //     (error) => {
+    //       alert("Unfortunately we could not find your account.");
+    //       this.isAuthenticating = false;
+    //       this.router.navigate(["clientMaster"]);
+    //     }
+    //   );
+    // } catch (error) {
+    //   console.log(error.message);
+    // }
     
   
 
    }
- }
  
+}
+
+
 
 

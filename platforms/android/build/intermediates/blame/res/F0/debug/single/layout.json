@@ -72,12 +72,12 @@
         "source": "C:\\Users\\smalur\\Vessel-Pro\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.2.0\\res\\layout\\design_bottom_navigation_item.xml"
     },
     {
-        "merged": "C:\\Users\\smalur\\Vessel-Pro\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
-        "source": "C:\\Users\\smalur\\Vessel-Pro\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
-    },
-    {
         "merged": "C:\\Users\\smalur\\Vessel-Pro\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\layout\\abc_list_menu_item_layout.xml",
         "source": "C:\\Users\\smalur\\Vessel-Pro\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\smalur\\Vessel-Pro\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "C:\\Users\\smalur\\Vessel-Pro\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
     },
     {
         "merged": "C:\\Users\\smalur\\Vessel-Pro\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\layout\\abc_list_menu_item_icon.xml",

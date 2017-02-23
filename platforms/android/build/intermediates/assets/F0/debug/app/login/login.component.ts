@@ -35,39 +35,48 @@ export class LoginComponent implements OnInit {
 
  
  submit(){
-   this.isAuthenticating = true;
-    if (this.isLoggingIn) {
-      this.login();
-    }
+    this.isAuthenticating = true;
+     if (this.isLoggingIn) {
+       this.login();
+     }
  }
 
 
-   login() {
-    if (getConnectionType() === connectionType.none) {
+    login() {
+      //alert("submitted");
+      try {
+         if (getConnectionType() === connectionType.none) {
       alert("Vessel-Pro requires an internet connection to log in.");
-      return;
-    }
+        return;
+      }
+      } catch (error) {
+        console.log(error);
+      }
+     
 
-    try {
-      this.loginService.login(this.user)
-      .subscribe( 
-        () => {
-         this.isAuthenticating = false;
-          this.router.navigate(["/"]);
-        },
-        (error) => {
-          alert("Unfortunately we could not find your account.");
-          this.isAuthenticating = false;
-        }
-      );
-    } catch (error) {
-      console.log(error.message);
-    }
+    // try {
+    //   this.loginService.login(this.user)
+    //   .subscribe( 
+    //     () => {
+    //     // this.isAuthenticating = false;
+    //      // this.router.navigate(["clientMaster"]);
+    //     },
+    //     (error) => {
+    //       alert("Unfortunately we could not find your account.");
+    //       this.isAuthenticating = false;
+    //       this.router.navigate(["clientMaster"]);
+    //     }
+    //   );
+    // } catch (error) {
+    //   console.log(error.message);
+    // }
     
   
 
-  }
- }
+   }
  
+}
+
+
 
 

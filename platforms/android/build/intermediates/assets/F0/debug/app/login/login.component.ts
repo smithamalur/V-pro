@@ -43,7 +43,7 @@ export class LoginComponent implements OnInit {
 
 
     login() {
-      //alert("submitted");
+      alert("submitted");
       try {
          if (getConnectionType() === connectionType.none) {
       alert("Vessel-Pro requires an internet connection to log in.");

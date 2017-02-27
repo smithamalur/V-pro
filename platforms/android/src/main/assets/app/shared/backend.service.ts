@@ -4,8 +4,9 @@ import { getString, setString } from "application-settings";
 const tokenKey = "token";
 
 export class BackendService {
-  static apiUrl = "https://api.everlive.com/v1/GWfRtXi1Lwt4jcqK/";
-
+  //static apiUrl = "https://api.everlive.com/v1/GWfRtXi1Lwt4jcqK/";
+static apiUrl = "http://vpromobilesvc.wobstaging.com/service1.svc/AuthenticateUser";
+//static apiUrl = "http://vpromobilesvc.wobstaging.com/service1.svc/GetVesseloperator";
   static isLoggedIn(): boolean {
     return !!getString("token");
   }

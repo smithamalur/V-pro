@@ -1,7 +1,7 @@
 {
-	"time": "Thu Feb 23 2017 13:04:08 GMT-0600 (Central Standard Time)",
+	"time": "Mon Feb 27 2017 15:05:38 GMT-0600 (Central Standard Time)",
 	"bundle": false,
 	"release": false,
-	"changesRequireBuild": true,
-	"changesRequireBuildTime": "Thu Feb 23 2017 13:04:08 GMT-0600 (Central Standard Time)"
+	"changesRequireBuild": false,
+	"changesRequireBuildTime": "Thu Feb 23 2017 13:41:54 GMT-0600 (Central Standard Time)"
 }

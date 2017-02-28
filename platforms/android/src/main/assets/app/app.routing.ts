@@ -10,7 +10,7 @@ export const authProviders = [
 ];
 export const appRoutes = [
     {path: "", component: LoginComponent },
-    //{path: "clientMaster", component: ClientMasterComponent}
+    {path: "clientMaster", component: ClientMasterComponent}
    
 ];
 

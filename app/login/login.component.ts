@@ -45,23 +45,24 @@ export class LoginComponent implements OnInit {
 
   login() {
     
-         if (getConnectionType() === connectionType.none) {
-      alert("Vessel-Pro requires an internet connection to log in.");
+      if (getConnectionType() === connectionType.none) {
+        alert("Vessel-Pro requires an internet connection to log in.");
         return;
          }
  
      try {
       this.loginService.login(this.user)
       .subscribe(
-        //(data) => this.data = data, // Reach here if res.status >= 200 && <= 299
-    
+        //(data) => this.data = data, // Reach here if res.status >= 200 && <= 299   
       () => {
-          alert("OK");
+          //alert("OK");
+           this.isAuthenticating = false;
+           this.router.navigate(["/clientMaster"]);
          },
         (error) => {
           alert("Unfortunately we could not find your account.");
           console.log("ERR: ",error);
-          //this.isAuthenticating = false;
+          this.isAuthenticating = false;
           
         }
     );

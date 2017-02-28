@@ -34,29 +34,23 @@ export class LoginService {
 login(user: User) {
     let headers = new Headers();
     //In the headers object, the Content-Type specifies that the body represents JSON.
-    headers.append("Content-Type", "application/x-www-form-urlencoded");
+    headers.append("Content-Type", "application/json");
     let urlSearchParams = new URLSearchParams();
     urlSearchParams.append('username', user.username);
     urlSearchParams.append('pwd', user.password);
-    let body = urlSearchParams.toString()
+    let body = urlSearchParams.toString();
 
     return this.http.post(
      BackendService.apiUrl,
      body,
     {headers: headers })
-    
-
-
-    .map((response: Response) => {
+    .map((response: Response) => { 
                 // login successful if there's a jwt token in the response
-               // console.log("url: ", apiUrl);
                 console.log("RESPONSE: ",response);
                 var body = response.json();
                 console.log("JSON BODY: ",JSON.stringify(body));}
                 )
-    // .do(data => {
-    //   BackendService.token = data.Result.access_token;
-    // })
+                
     .catch(this.handleErrors);
   }
    

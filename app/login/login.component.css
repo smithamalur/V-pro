@@ -18,6 +18,10 @@ Button, TextField {
   color: white;
   margin-top: 20;
 }
+.initial-logo {
+  horizontal-align: center;
+  margin-bottom: 10;
+}
 
 
 

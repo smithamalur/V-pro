@@ -4,6 +4,7 @@ C:\Users\smalur\Vessel-Pro\platforms\android\src\main\assets\app\app.routing.js
 C:\Users\smalur\Vessel-Pro\platforms\android\src\main\assets\app\auth-guard.service.js
 C:\Users\smalur\Vessel-Pro\platforms\android\src\main\assets\app\main.js
 C:\Users\smalur\Vessel-Pro\platforms\android\src\main\assets\app\clientMaster\clientmaster.component.js
+C:\Users\smalur\Vessel-Pro\platforms\android\src\main\assets\app\clientMaster\srtdetails\srtdetails.component.js
 C:\Users\smalur\Vessel-Pro\platforms\android\src\main\assets\app\login\login.component.js
 C:\Users\smalur\Vessel-Pro\platforms\android\src\main\assets\app\login\login.routing.js
 C:\Users\smalur\Vessel-Pro\platforms\android\src\main\assets\app\shared\backend.service.js

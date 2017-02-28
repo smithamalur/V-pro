@@ -258,7 +258,7 @@ MERGED from [com.android.support:support-compat:25.2.0] C:\Users\smalur\Vessel-P
 	android:allowBackup
 		ADDED from C:\Users\smalur\Vessel-Pro\platforms\android\src\main\AndroidManifest.xml:25:3-29
 	android:icon
-		ADDED from C:\Users\smalur\Vessel-Pro\platforms\android\src\main\AndroidManifest.xml:26:3-32
+		ADDED from C:\Users\smalur\Vessel-Pro\platforms\android\src\main\AndroidManifest.xml:26:3-39
 	android:theme
 		ADDED from C:\Users\smalur\Vessel-Pro\platforms\android\src\main\AndroidManifest.xml:28:3-34
 	android:name

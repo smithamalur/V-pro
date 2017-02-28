@@ -96,6 +96,10 @@
         "source": "C:\\Users\\smalur\\Vessel-Pro\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable-xxhdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
     },
     {
+        "merged": "C:\\Users\\smalur\\Vessel-Pro\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\drawable-xxhdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\smalur\\Vessel-Pro\\platforms\\android\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
         "merged": "C:\\Users\\smalur\\Vessel-Pro\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\drawable-xxhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png",
         "source": "C:\\Users\\smalur\\Vessel-Pro\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable-xxhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
     },
@@ -108,8 +112,16 @@
         "source": "C:\\Users\\smalur\\Vessel-Pro\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable-xxhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
+        "merged": "C:\\Users\\smalur\\Vessel-Pro\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\drawable-xxhdpi-v4\\vessel_pro_logo_large.png",
+        "source": "C:\\Users\\smalur\\Vessel-Pro\\platforms\\android\\src\\main\\res\\drawable-xxhdpi\\vessel_pro_logo_large.png"
+    },
+    {
         "merged": "C:\\Users\\smalur\\Vessel-Pro\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\drawable-xxhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png",
         "source": "C:\\Users\\smalur\\Vessel-Pro\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable-xxhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\smalur\\Vessel-Pro\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\drawable-xxhdpi-v4\\vessel_pro_logo_small.png",
+        "source": "C:\\Users\\smalur\\Vessel-Pro\\platforms\\android\\src\\main\\res\\drawable-xxhdpi\\vessel_pro_logo_small.png"
     },
     {
         "merged": "C:\\Users\\smalur\\Vessel-Pro\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_000.png",

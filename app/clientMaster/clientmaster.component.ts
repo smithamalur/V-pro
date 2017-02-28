@@ -16,7 +16,7 @@ import { alert, LoginService, User } from "../shared";
   moduleId: module.id,
   templateUrl: './clientmaster.component.html',
   styleUrls: ["./clientmaster.component.css"],
-  //providers: [ClientMasterService]
+  providers: [LoginService]
 })
  export class ClientMasterComponent implements OnInit{
 
@@ -38,23 +38,20 @@ import { alert, LoginService, User } from "../shared";
   }
 
 loadsrt(){
-  alert("OK");
-//   if (getConnectionType() === connectionType.none) {
-//       alert("Groceries requires an internet connection to log in.");
-//       return;
-//     }
+ // alert("OK");
+    if (getConnectionType() === connectionType.none) {
+        alert("Oops!! looks like your device is not connected to the internet ");
+        return;
+      }
 
-//     this.LoginService.getAssociatedRequest()
-//       .subscribe(
-//         () => {
-//           this.isAuthenticating = false;
-//           this.router.navigate(["/"]);
-//         },
-//         (error) => {
-//           alert("Unfortunately we could not find your account.");
-//           this.isAuthenticating = false;
-//         }
-//       );
-// }
- }
+      this.LoginService.getAssociatedRequest()
+        .subscribe(
+          (response) => { 
+        console.log("Success Response" + response)
+        },
+        (error) => { console.log("Error happened" + error)},
+        () => { console.log("srt is completed")
+       alert("LOADED SRT")}
+    );     
+  }
  }

@@ -1,5 +1,6 @@
 <StackLayout #container>
 
+<Image src="res://vessel_pro_logo_nb_large.png" stretch="none" class="initial-logo"> </Image>
   <TextField  
 
   hint="Client ID"
@@ -10,6 +11,7 @@
         [(ngModel)]="user.username"
         [isEnabled]="!isAuthenticating"
         autocorrect="false"
+        required 
         autocapitalizationType="none"
         row="0" >
   </TextField>

@@ -1,9 +1,14 @@
-<!--<Label text="Hello world"></Label>-->
-<StackLayout>
-    <GridLayout #masterContainer class="master-container" columns="*,*" rows="*,*" >
-  <Button text="SRT" col="1" row ="1" style="background-color: #0099CC; margin: 2;"></Button>
-  <Button text="Calender" col="2" row ="1" style="background-color: #8C489F ; margin: 2;"></Button>
-  <Button text="dummy" col="2" row="2"  style="background-color: #0099CC; margin: 2;"></Button>
-  <Button text="dummy" col="2" row="2"  style="background-color: #8C489F; margin: 5;"></Button>
 
+<StackLayout>
+<GridLayout columns="*,*" rows="*,*" width="300" height="300"  >
+    <Button class="btn btn-sq-lg btn-primary " 
+            text="SRT" 
+            col="0" 
+            row="0"
+            (tap)="loadsrt()"
+            ></Button>
+    <Button class="btn btn-sq-lg btn-primary " text="Calender" col="1" row="0" ></Button>
+    <Button class="btn btn-sq-lg btn-primary " text="Announcement" col="0" row="1" ></Button>
+    <Button class="btn btn-sq-lg btn-primary " text="Reminder" col="1" row="1" ></Button>
 </GridLayout>
+</StackLayout>

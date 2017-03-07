@@ -69,18 +69,24 @@ export class LoginComponent implements OnInit {
      try {
       this.loginService.login(this.user)
       .subscribe(
-        //(data) => this.data = data, // Reach here if res.status >= 200 && <= 299   
-      () => {
+        // (response) =>{
+        //     console.log("RESPONSE: "+response.url);    
+        //     console.log("response json "+response.status);
+        //    var body = response.json();
+        //    console.log("JSON BODY: ",JSON.stringify(body));
+        // }, 
+        () => {
           //alert("OK");
            this.isAuthenticating = false;
            this.router.navigate(["/clientMaster"]);
          },
         (error) => {
           alert("Unfortunately we could not find your account.");
-          console.log("ERR: ",error);
           this.isAuthenticating = false;
           
         }
+      
+        
     );
  
     } catch (error) {

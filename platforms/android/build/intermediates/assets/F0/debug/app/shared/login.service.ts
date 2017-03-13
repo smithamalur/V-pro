@@ -39,20 +39,27 @@ login(user: User) {
     urlSearchParams.append('username', user.username);
     urlSearchParams.append('pwd', user.password);
     let body = urlSearchParams.toString();
+    console.log("body"+body);
 
     return this.http.post(
      BackendService.apiUrl,
      body,
     {headers: headers })
-    .map((response: Response) => { 
+    .map((response ) => { 
+                response.json();
                 // login successful if there's a jwt token in the response
-                console.log("RESPONSE: ",response);
+                console.log("RESPONSE: "+response.url);    
+                console.log("response json "+response.status);
                 var body = response.json();
-                console.log("JSON BODY: ",JSON.stringify(body));}
+                console.log("JSON BODY: ",JSON.stringify(body));
+               
+              }
                 )
+                
                 
     .catch(this.handleErrors);
   }
+  
    
 /** HTTP POST LOGIN--------------------------------------------------------------------------------------------------  */
   // login(user: User) {
@@ -78,10 +85,24 @@ login(user: User) {
   
   /** ---------------------------------------------------------------------------------------------------------------- */
 
-
 getAssociatedRequest(){
-  
-}
+let headers = new Headers();
+    //In the headers object, the Content-Type specifies that the body represents JSON.
+
+    return this.http.get(
+     BackendService.requestUrl
+  )
+    .map((response: Response) => { 
+                // login successful if there's a jwt token in the response
+                console.log("RESPONSE: ",response);
+                var body = response.json();
+                console.log("JSON BODY: ",JSON.stringify(body));
+               alert(JSON.stringify(body));}
+                )
+                
+    .catch(this.handleErrors);
+  }
+
   logoff() {
     BackendService.token = "";
   }

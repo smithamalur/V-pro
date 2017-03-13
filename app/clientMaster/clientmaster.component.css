@@ -8,7 +8,5 @@ GridLayout {
 .btn-sq-lg {
   width: 150px !important;
   height: 150px !important;
-  background-color: dodgerblue;
-  color: white;
   margin-top: 20;
 }

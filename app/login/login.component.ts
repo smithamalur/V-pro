@@ -30,6 +30,10 @@ export class LoginComponent implements OnInit {
   data : any ;
 
   @ViewChild("password") password: ElementRef;
+  @ViewChild("mainContainer") mainContainer: ElementRef;
+    @ViewChild("formControls") formControls: ElementRef;
+    
+
   constructor(private router: Router,
     private loginService : LoginService,
     private page: Page) {
@@ -63,6 +67,7 @@ export class LoginComponent implements OnInit {
     
       if (getConnectionType() === connectionType.none) {
         alert("Vessel-Pro requires an internet connection to log in.");
+        this.isAuthenticating = false;
         return;
          }
  
@@ -121,6 +126,45 @@ export class LoginComponent implements OnInit {
   //   }
 
   //  }
+  //   startBackgroundAnimation(background) {
+    
+  // }
+
+  onContentloaded(background) {
+    
+    background.animate({
+      scale: { x: 1.0, y: 1.0 },
+      duration: 10000
+    }); 
+
+    let mainContainer = <View>this.mainContainer.nativeElement;
+    let formControls = <View>this.formControls.nativeElement;
+    let animations = [];
+
+    // Fade out the initial content over one half second
+    mainContainer.animate({
+      opacity: 0,
+      duration: 500
+    }).then(function() {
+      // After the animation completes, hide the initial container and
+      // show the main container and logo. The main container and logo will
+      // not immediately appear because their opacity is set to 0 in CSS.
+      
+      mainContainer.style.visibility = "visible";
+      
+
+      // Fade in the main container and logo over one half second.
+      animations.push({ target: mainContainer, opacity: 1, duration: 500 });
+      
+
+      // Slide up the form controls and sign up container.
+      
+      animations.push({ target: formControls, translate: { x: 0, y: 0 }, opacity: 1, delay: 650, duration: 150 });
+
+      // Kick off the animation queue
+      new Animation(animations, false).play();
+    });
+  }
  
 }
 

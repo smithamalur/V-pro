@@ -4,12 +4,12 @@
         "source": "C:\\Users\\smalur\\Vessel-Pro\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\color-v23\\abc_tint_default.xml"
     },
     {
-        "merged": "C:\\Users\\smalur\\Vessel-Pro\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\color-v23\\abc_tint_edittext.xml",
-        "source": "C:\\Users\\smalur\\Vessel-Pro\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\color-v23\\abc_tint_edittext.xml"
-    },
-    {
         "merged": "C:\\Users\\smalur\\Vessel-Pro\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\color-v23\\abc_tint_seek_thumb.xml",
         "source": "C:\\Users\\smalur\\Vessel-Pro\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\color-v23\\abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "C:\\Users\\smalur\\Vessel-Pro\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\color-v23\\abc_tint_edittext.xml",
+        "source": "C:\\Users\\smalur\\Vessel-Pro\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\color-v23\\abc_tint_edittext.xml"
     },
     {
         "merged": "C:\\Users\\smalur\\Vessel-Pro\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\color-v23\\abc_btn_colored_text_material.xml",

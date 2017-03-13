@@ -1,34 +1,59 @@
-<StackLayout #container>
+<GridLayout >
+  <GridLayout #background
+  scaleX ="1.4"
+  scaleY ="1.4"
+  class = "background"
 
-<Image src="res://vessel_pro_logo_nb_large.png" stretch="none" class="initial-logo"> </Image>
-  <TextField  
+  > </GridLayout>
+<StackLayout #mainContainer
+  class = "main-container" 
+  (loaded) = onContentloaded(background)>
+<Image 
+  src="res://vessel_pro_logo_nb_large" 
+  stretch="none" 
+  
+  class="initial-logo"> </Image>
+  
+  <GridLayout #formControls
+    class ="form-controls"
+    rows="auto, auto"
+    translateY="50">
+  <TextField #username 
+    hint="Username"
+    keyboardType="email"
+    returnKeyType="next"
+    (returnPress)="focusPassword()"
+    [(ngModel)]="user.username"
+    [isEnabled]="!isAuthenticating"
+    autocorrect="false" 
+    autocapitalizationType="none"
+    row="0" ></TextField>
 
-  hint="Client ID"
-      keyboardType="email"
-      returnKeyType="next"
-        
-    
-        [(ngModel)]="user.username"
-        [isEnabled]="!isAuthenticating"
-        autocorrect="false"
-        required 
-        autocapitalizationType="none"
-        row="0" >
-  </TextField>
 
-  <TextField
+  <TextField #password
   hint="Password" 
   secure="true" 
+  returnKeyType="done"
   (returnPress)="submit()"
-  [(ngModel)]="user.password">
-  </TextField>
+  [isEnabled]="!isAuthenticating"
+  [(ngModel)]="user.password"
+  row = "1"> </TextField>
+  
+  
+  <ActivityIndicator
+    class = "activity-indicator" 
+    [busy]="isAuthenticating"
+    rowSpan="2"></ActivityIndicator>
+     
+  </GridLayout>
 
 <Button 
-[isEnabled]="!isAuthenticating"
-text="LOGIN" 
-class="submit-button" 
-(tap)="submit()">
-</Button>
+  [disabled]="!username.valid"
+  [isEnabled]="!isAuthenticating"
+  text="LOGIN" 
+  class="btn-primary" 
+  (tap)="submit()"> </Button>
  
 </StackLayout>
+</GridLayout>
 

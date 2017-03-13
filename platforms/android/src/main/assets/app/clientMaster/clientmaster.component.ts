@@ -27,7 +27,7 @@ import { alert, LoginService, User } from "../shared";
    private page: Page) {}
 
    ngOnInit(){
-     this.page.actionBarHidden = true;
+     this.page.actionBarHidden = false;
    }
 
    showActivityIndicator() {
@@ -46,6 +46,7 @@ public gotoSRTPage() {
 loadsrt(){
  // alert("OK");
     if (getConnectionType() === connectionType.none) {
+      
         alert("Oops!! looks like your device is not connected to the internet ");
         return;
       }

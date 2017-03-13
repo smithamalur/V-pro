@@ -1,14 +1,15 @@
+<Page.actionBar>
+<ActionBar title="Vessel Pro" android.icon="res://ic_launcher" class="action-bar" android.iconVisibility="always">
+    <NavigationButton text="Back" icon="res://back" tap=""></NavigationButton>
+    
+  
+</ActionBar>
+</Page.actionBar>
 
-<StackLayout>
-<GridLayout columns="*,*" rows="*,*" width="300" height="300"  >
-    <Button class="btn btn-sq-lg btn-primary " 
-            text="SRT" 
-            col="0" 
-            row="0"
-            (tap)="loadsrt()"
-            ></Button>
+<GridLayout columns="*,*" rows="*,*" width="300" height="300" >
+    <Button class="btn btn-sq-lg btn-primary " text="SRT" col="0" row="0" (tap)="gotoSRTPage()"></Button>
     <Button class="btn btn-sq-lg btn-primary " text="Calender" col="1" row="0" ></Button>
     <Button class="btn btn-sq-lg btn-primary " text="Announcement" col="0" row="1" ></Button>
     <Button class="btn btn-sq-lg btn-primary " text="Reminder" col="1" row="1" ></Button>
 </GridLayout>
-</StackLayout>
+

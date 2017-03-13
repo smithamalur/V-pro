@@ -1,10 +1,23 @@
-<StackLayout >
+<GridLayout >
+  <GridLayout #background
+  scaleX ="1.4"
+  scaleY ="1.4"
+  class = "background"
 
+  > </GridLayout>
+<StackLayout #mainContainer
+  class = "main-container" 
+  (loaded) = onContentloaded(background)>
 <Image 
   src="res://vessel_pro_logo_nb_large" 
   stretch="none" 
+  
   class="initial-logo"> </Image>
   
+  <GridLayout #formControls
+    class ="form-controls"
+    rows="auto, auto"
+    translateY="50">
   <TextField #username 
     hint="Username"
     keyboardType="email"
@@ -23,19 +36,24 @@
   returnKeyType="done"
   (returnPress)="submit()"
   [isEnabled]="!isAuthenticating"
-  [(ngModel)]="user.password"> </TextField>
+  [(ngModel)]="user.password"
+  row = "1"> </TextField>
   
   
   <ActivityIndicator
+    class = "activity-indicator" 
     [busy]="isAuthenticating"
     rowSpan="2"></ActivityIndicator>
+     
+  </GridLayout>
 
 <Button 
   [disabled]="!username.valid"
   [isEnabled]="!isAuthenticating"
   text="LOGIN" 
-  class="submit-button" 
+  class="btn-primary" 
   (tap)="submit()"> </Button>
  
 </StackLayout>
+</GridLayout>
 

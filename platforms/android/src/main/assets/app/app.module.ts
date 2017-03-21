@@ -9,6 +9,7 @@ import { authProviders, appRoutes,navigatableComponents } from "./app.routing";
 import { AppRoutingModule } from "./app.routing";
 import { AppComponent } from "./app.component";
 
+
 setStatusBarColors();
 
 @NgModule({

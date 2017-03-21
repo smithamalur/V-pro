@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "C:\\Users\\smalur\\Vessel-Pro\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1\\debug\\drawable-ldpi-v4\\back.png",
+        "source": "C:\\Users\\smalur\\Vessel-Pro\\platforms\\android\\src\\main\\res\\drawable-ldpi\\back.png"
+    },
+    {
+        "merged": "C:\\Users\\smalur\\Vessel-Pro\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1\\debug\\drawable-ldpi-v4\\logout.png",
+        "source": "C:\\Users\\smalur\\Vessel-Pro\\platforms\\android\\src\\main\\res\\drawable-ldpi\\logout.png"
+    },
+    {
+        "merged": "C:\\Users\\smalur\\Vessel-Pro\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1\\debug\\drawable-ldpi-v4\\blog.png",
+        "source": "C:\\Users\\smalur\\Vessel-Pro\\platforms\\android\\src\\main\\res\\drawable-ldpi\\blog.png"
+    },
+    {
+        "merged": "C:\\Users\\smalur\\Vessel-Pro\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1\\debug\\drawable-ldpi-v4\\menu.png",
+        "source": "C:\\Users\\smalur\\Vessel-Pro\\platforms\\android\\src\\main\\res\\drawable-ldpi\\menu.png"
+    },
+    {
+        "merged": "C:\\Users\\smalur\\Vessel-Pro\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1\\debug\\drawable-ldpi-v4\\icon.png",
+        "source": "C:\\Users\\smalur\\Vessel-Pro\\platforms\\android\\src\\main\\res\\drawable-ldpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\smalur\\Vessel-Pro\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1\\debug\\drawable-ldpi-v4\\background.png",
+        "source": "C:\\Users\\smalur\\Vessel-Pro\\platforms\\android\\src\\main\\res\\drawable-ldpi\\background.png"
+    },
+    {
+        "merged": "C:\\Users\\smalur\\Vessel-Pro\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1\\debug\\drawable-ldpi-v4\\home.png",
+        "source": "C:\\Users\\smalur\\Vessel-Pro\\platforms\\android\\src\\main\\res\\drawable-ldpi\\home.png"
+    },
+    {
+        "merged": "C:\\Users\\smalur\\Vessel-Pro\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1\\debug\\drawable-ldpi-v4\\briefcase.png",
+        "source": "C:\\Users\\smalur\\Vessel-Pro\\platforms\\android\\src\\main\\res\\drawable-ldpi\\briefcase.png"
+    },
+    {
+        "merged": "C:\\Users\\smalur\\Vessel-Pro\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1\\debug\\drawable-ldpi-v4\\features.png",
+        "source": "C:\\Users\\smalur\\Vessel-Pro\\platforms\\android\\src\\main\\res\\drawable-ldpi\\features.png"
+    },
+    {
+        "merged": "C:\\Users\\smalur\\Vessel-Pro\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1\\debug\\drawable-ldpi-v4\\user.png",
+        "source": "C:\\Users\\smalur\\Vessel-Pro\\platforms\\android\\src\\main\\res\\drawable-ldpi\\user.png"
+    },
+    {
+        "merged": "C:\\Users\\smalur\\Vessel-Pro\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1\\debug\\drawable-ldpi-v4\\logo.png",
+        "source": "C:\\Users\\smalur\\Vessel-Pro\\platforms\\android\\src\\main\\res\\drawable-ldpi\\logo.png"
+    },
+    {
+        "merged": "C:\\Users\\smalur\\Vessel-Pro\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1\\debug\\drawable-ldpi-v4\\next.png",
+        "source": "C:\\Users\\smalur\\Vessel-Pro\\platforms\\android\\src\\main\\res\\drawable-ldpi\\next.png"
+    },
+    {
+        "merged": "C:\\Users\\smalur\\Vessel-Pro\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1\\debug\\drawable-ldpi-v4\\users.png",
+        "source": "C:\\Users\\smalur\\Vessel-Pro\\platforms\\android\\src\\main\\res\\drawable-ldpi\\users.png"
+    },
+    {
+        "merged": "C:\\Users\\smalur\\Vessel-Pro\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1\\debug\\drawable-ldpi-v4\\categories.png",
+        "source": "C:\\Users\\smalur\\Vessel-Pro\\platforms\\android\\src\\main\\res\\drawable-ldpi\\categories.png"
+    },
+    {
+        "merged": "C:\\Users\\smalur\\Vessel-Pro\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1\\debug\\drawable-ldpi-v4\\tables.png",
+        "source": "C:\\Users\\smalur\\Vessel-Pro\\platforms\\android\\src\\main\\res\\drawable-ldpi\\tables.png"
+    },
+    {
+        "merged": "C:\\Users\\smalur\\Vessel-Pro\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1\\debug\\drawable-ldpi-v4\\menu_close.png",
+        "source": "C:\\Users\\smalur\\Vessel-Pro\\platforms\\android\\src\\main\\res\\drawable-ldpi\\menu_close.png"
+    }
+]

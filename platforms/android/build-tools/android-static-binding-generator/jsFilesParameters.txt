@@ -67,9 +67,13 @@ C:\Users\smalur\Vessel-Pro\platforms\android\src\main\assets\app\tns_modules\nat
 C:\Users\smalur\Vessel-Pro\platforms\android\src\main\assets\app\tns_modules\nativescript-angular\value-accessors\text-value-accessor.js
 C:\Users\smalur\Vessel-Pro\platforms\android\src\main\assets\app\tns_modules\nativescript-angular\value-accessors\time-value-accessor.js
 C:\Users\smalur\Vessel-Pro\platforms\android\src\main\assets\app\tns_modules\nativescript-angular\zone-js\dist\zone-nativescript.js
+C:\Users\smalur\Vessel-Pro\platforms\android\src\main\assets\app\tns_modules\nativescript-dom\dom.js
 C:\Users\smalur\Vessel-Pro\platforms\android\src\main\assets\app\tns_modules\nativescript-intl\index.js
 C:\Users\smalur\Vessel-Pro\platforms\android\src\main\assets\app\tns_modules\nativescript-intl\nativescript-intl-common.js
 C:\Users\smalur\Vessel-Pro\platforms\android\src\main\assets\app\tns_modules\nativescript-intl\nativescript-intl.js
+C:\Users\smalur\Vessel-Pro\platforms\android\src\main\assets\app\tns_modules\nativescript-slides\nativescript-slides.js
+C:\Users\smalur\Vessel-Pro\platforms\android\src\main\assets\app\tns_modules\nativescript-telerik-ui\scripts\email-prompt.js
+C:\Users\smalur\Vessel-Pro\platforms\android\src\main\assets\app\tns_modules\nativescript-telerik-ui\scripts\eula-prompt.js
 C:\Users\smalur\Vessel-Pro\platforms\android\src\main\assets\app\tns_modules\tns-core-modules\bundle-entry-points.js
 C:\Users\smalur\Vessel-Pro\platforms\android\src\main\assets\app\tns_modules\tns-core-modules\application\application-common.js
 C:\Users\smalur\Vessel-Pro\platforms\android\src\main\assets\app\tns_modules\tns-core-modules\application\application.js

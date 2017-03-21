@@ -5,3 +5,15 @@
 .descriptionLabel {
     font-size: 14;
 }
+.even {
+  background-color: #00caab;
+}
+.odd{
+
+}
+.cmlabel{
+    text-align: center;
+  width: 100%;
+  font-size: 16;
+  font-weight: bold;
+}

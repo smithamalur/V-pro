@@ -1,0 +1,72 @@
+<Page.actionBar>
+<ActionBar title="Vessel Pro" android.icon="res://ic_launcher" class="action-bar" android.iconVisibility="always">
+    <NavigationButton text="Back" icon="res://back" (tap) ="goBack()"></NavigationButton>
+    <!--//<NavigationButton icon ="res://menu" (tap) = "showMenu()"></NavigationButton>-->
+    
+    <ActionItem class="actionitem" 
+    (tap)="showMenu()" 
+        icon="res://menu"
+       ios.position="right"
+       text="Log off"
+       android.position="popup"></ActionItem>
+</ActionBar>
+</Page.actionBar>
+
+<StackLayout >
+<!--<SlideContainer angular="true" #slides>
+        <Slide >
+            <Label text="img.title"></Label>
+            <Image [src]="img.source"></Image>
+         <Slide >
+            <Label text="img2.title"></Label>
+            <Image [src]="img.source"></Image>
+        </Slide>
+    </SlideContainer>-->
+    <Image src="page_photo" stretch="fill"></Image>
+     
+    <GridLayout columns="*,*" rows="*,*,*,*,*,*"  width="400" height="400">
+      <!--width="300" height="300"  -->
+    <StackLayout class="  btn-sq-lg  " col="0" row="0" (tap)="gotoSRTPage()">
+
+        <Image  col="0" row ="1" src="res://ic_briefcase" > </Image>
+        <Label class= "cmlabel" textWrap="true" col="0" row="2" text="SRT" horizontalAlignment="center" verticalAlignment="center"></Label>
+    </StackLayout>  
+
+    <StackLayout class="  btn-sq-lg  " col="1" row="0" (tap)="gotoSRTPage()">
+
+        <Image  col="1" row ="1" src="res://ic_blog" > </Image>
+        <Label  class="cmlabel" col="1" row="2" text="SRT" horizontalAlignment="center" verticalAlignment="center"></Label>
+       
+        </StackLayout>    
+         <StackLayout class="  btn-sq-lg  " col="0" row="3" (tap)="gotoSRTPage()">
+
+        <Image  col="0" row ="4" src="res://ic_reminder" > </Image>
+        <Label class= "cmlabel" textWrap="true" col="0" row="5" text="SRT" horizontalAlignment="center" verticalAlignment="center"></Label>
+        </StackLayout>    
+         <StackLayout class="  btn-sq-lg  " col="1" row="3" (tap)="gotoSRTPage()">
+
+        <Image  col="1" row ="4" src="res://ic_announcement" > </Image>
+        <Label class="cmlabel" textWrap="true" col="1" row="5" text="SRT" horizontalAlignment="center" verticalAlignment="center"></Label>
+        </StackLayout>      
+    
+    <!--<StackLayout class="  btn-sq-lg  " col="1" row="0" (tap)="gotoSRTPage()">
+        <Image src= "res://ic_blog" >
+        <Label text="SRT" ></Label>
+           </Image>    
+    </StackLayout>
+    <StackLayout class="  btn-sq-lg  " col="0" row="1" (tap)="gotoSRTPage()">
+        <Image src= "res://ic_reminder" >
+        <Label text="SRT" ></Label>
+           </Image>    
+    </StackLayout>
+    <StackLayout class="  btn-sq-lg  " col="1" row="1" (tap)="gotoSRTPage()">
+        <Image src= "res://ic_announcement" >
+        <Label text="SRT" ></Label>
+           </Image>    
+    </StackLayout>-->
+    <!--<Button class="btn btn-sq-lg btn-primary " text="Calender" col="1" row="0" ></Button>
+    <Button class="btn btn-sq-lg btn-primary " text="Announcement" col="0" row="1" ></Button>
+    <Button class="btn btn-sq-lg btn-primary " text="Reminder" col="1" row="1" ></Button>-->
+</GridLayout>
+    
+</StackLayout>

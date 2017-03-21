@@ -2,11 +2,50 @@ GridLayout {
   margin-left: 30;
   margin-right: 30;
   margin-top: 30;
-  padding-bottom: 15;
   background-color: white;
 }
-.btn-sq-lg {
-  width: 150px !important;
-  height: 150px !important;
-  margin-top: 20;
+.picture-placeholder {
+  height: 350;
 }
+.btn-sq-lg {
+  /*width: 150px !important;
+  height: 150px !important;*/
+
+ background-color: white;
+ /*margin-top: 20; */
+}
+.btn-sq-lgsrt {
+  /*width: 150px !important;
+  height: 150px !important;*/
+  
+  background-color: white;
+ 
+}
+.cmlabel{
+  text-align: center;
+  width: 100%;
+  font-size: 16;
+  font-weight: bold;
+  /*margin-top: 35;*/
+  color:#00caab;
+}
+
+
+/*.slide-1{
+  background-color: darkslateblue;
+}
+
+.slide-2{
+  background-color: darkcyan;
+}
+.slide-3{
+  background-color: darkgreen;
+}
+
+.slide-4{
+  background-color: darkgoldenrod;
+}
+.slide-5{
+  background-color: darkslategray;
+}
+*/

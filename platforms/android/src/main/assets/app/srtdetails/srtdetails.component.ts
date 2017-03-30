@@ -36,7 +36,6 @@ export class SrtListComponent implements OnInit{
 public source:Array<any>;
 
 constructor( private router: Router,
-   private userService: LoginService,
    private LoginService: LoginService,
    private routerExtensions: RouterExtensions){}
   ngOnInit(){

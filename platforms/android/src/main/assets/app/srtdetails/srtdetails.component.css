@@ -17,3 +17,14 @@
   font-size: 16;
   font-weight: bold;
 }
+.srtgrid{
+
+    margin-left: 15;
+    margin-right: 15
+
+
+}
+.srtlabel{
+    text-align: center;
+    font-size: 10;
+}

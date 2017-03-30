@@ -102,6 +102,44 @@ let headers = new Headers();
                 
     .catch(this.handleErrors);
   }
+  
+  getAnouncements(){
+let headers = new Headers();
+    //In the headers object, the Content-Type specifies that the body represents JSON.
+
+    return this.http.get(
+     BackendService.announcementUrl
+  )
+    .map((response: Response) => { 
+                // login successful if there's a jwt token in the response
+                console.log("Announcement Response: ",response);
+                var body = response.json();
+                console.log("JSON BODY: ",JSON.stringify(body));
+               alert(JSON.stringify(body));}
+                )
+                
+    .catch(this.handleErrors);
+  }
+
+ 
+
+  getCalenderEvents(){
+let headers = new Headers();
+    //In the headers object, the Content-Type specifies that the body represents JSON.
+
+    return this.http.get(
+     BackendService.calenderUrl
+  )
+    .map((response: Response) => { 
+                // login successful if there's a jwt token in the response
+                console.log("Calender Response: ",response);
+                var body = response.json();
+                console.log("JSON BODY: ",JSON.stringify(body));
+               alert(JSON.stringify(body));}
+                )
+                
+    .catch(this.handleErrors);
+  }
 
   logoff() {
     BackendService.token = "";

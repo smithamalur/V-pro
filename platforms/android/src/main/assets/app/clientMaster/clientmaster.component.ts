@@ -10,10 +10,6 @@ import { Page } from "ui/page";
 import { TextField } from "ui/text-field";
 import {RouterExtensions} from "nativescript-angular/router";
 import { alert, LoginService, User } from "../shared";
-import {registerElement} from "nativescript-angular/element-registry";
-
-registerElement("Slide", () => require("nativescript-slides").Slide);
-registerElement("SlideContainer", () => require("nativescript-slides").SlideContainer);
 
 @Component({
   selector: "clientMaster",
@@ -31,16 +27,12 @@ registerElement("SlideContainer", () => require("nativescript-slides").SlideCont
    private page: Page,
    private routerExtensions: RouterExtensions
    ) {}
-   // @ViewChild("slides") slides: ElementRef;
+   
    ngOnInit(){
      this.page.actionBarHidden = false;
-      // let SlidesXml = this.slides.nativeElement;
-      //  SlidesXml.constructView();
+      
    }
-    // ngAfterViewInit() {
-    //     let SlidesXml = this.slides.nativeElement;
-    //     SlidesXml.constructView();
-    // }
+   
 
    showActivityIndicator() {
     this.isLoading = true;
@@ -55,35 +47,33 @@ registerElement("SlideContainer", () => require("nativescript-slides").SlideCont
 public gotoSRTPage() {
   this.router.navigate(["srtDetails"])
 }
+public gotoAnnouncementPage() {
+  this.router.navigate(["announcements"])
+}
+public gotoCalenderPage() {
+  this.router.navigate(["calender"])
+}
 
 public goBack() {
     this.routerExtensions.navigate([""], { clearHistory: true });
 }
 loadsrt(){
- // alert("OK");
     if (getConnectionType() === connectionType.none) {
-      
         alert("Oops!! looks like your device is not connected to the internet ");
         return;
-      }
-      
+      }     
         this.LoginService.getAssociatedRequest()
         .subscribe(
           (response) => { 
-        console.log("Success Response" + response)
-        
-        },
-          
+        console.log("Success Response" + response)        
+        },          
         (error) => { console.log("Error happened", error.message)},
         () => { console.log("srt is completed")
        }
-    );     
-        
-     
-      
+    );         
   }
 
-    showMenu() {
+    showMenu(){
     confirm({
       message: "Are you Sure You want to log off?",
       //actions: ["Share", "Log Off"],

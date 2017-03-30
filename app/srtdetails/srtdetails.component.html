@@ -38,19 +38,33 @@
 
 <GridLayout rows="" columns="">
     <ListView [items]="source" >
-        <template nsTemplateKey="header" let-item="item" let-odd="odd" let-even="even">
+        <!--<template  let-item="item" let-odd="odd" let-even="even">
+                    
           <StackLayout [class.even] = "even" [class.odd] ="odd">              
                  <Label  [text]="item.requestid" class="list-group-item cmlabel" ></Label>
-          
-            
-                 <Label [text]="item.requestedon" class="list-group-item cmlabel"></Label>
-          
-           
+                 <Label [text]="item.requestedon" class="list-group-item cmlabel"></Label>          
                 <Label [text]="item.requesttype" class="list-group-item cmlabel"></Label>
-       
-            
+               
           </StackLayout>
-        </template>
+        </template>-->
+
+         <!--<template nsTemplateKey="header" let-header="item">
+            <GridLayout rows="auto" columns="auto, *, *" class="list-group">
+                <Label row="0" col="0" class="list-group-item" [text]="header.item1"></Label>
+                <Label row="0" col="1" class="list-group-item bg-primary" [text]="header.item2"></Label>
+                <Label row="0" col="2" class="list-group-item bg-primary" [text]="header.item3"></Label>
+                <Label row="0" col="3" class="list-group-item bg-primary" [text]="header.item4"></Label>
+            </GridLayout>
+        </template>-->
+        <template nsTemplateKey="cell" let-item="item" let-i="index">
+            <GridLayout class="srtgrid" rows="auto" columns="*, *, *, *">
+                <Label class="srtlabel" row="0" col="0" textWrap="true" [text]= "i+1"></Label>
+                <Label class="srtlabel" row="0" col="1" textWrap="true" [text]="item.requestid" class="bg-primary list-group-item"></Label>
+                <Label class="srtlabel" row="0" col="2" textWrap="true" [text]="item.requestedon" class="list-group-item"></Label>
+                <Label class="srtlabel" row="0" col="3" textWrap="true" [text]="item.requesttype" class="list-group-item"></Label>
+                <!--<Label row="0" col="3" textWrap="true" [text]="item.Qty" class="list-group-item"></Label>-->
+            </GridLayout>
+        </template> 
     </ListView>
     
 </GridLayout>

@@ -1,0 +1,27 @@
+<Page.actionBar>
+<ActionBar title="Vessel Pro" android.icon="res://ic_launcher" class="action-bar" android.iconVisibility="always">
+    <NavigationButton text="Back" icon="res://back" (tap) ="goBack()"></NavigationButton>
+    <!--//<NavigationButton icon ="res://menu" (tap) = "showMenu()"></NavigationButton>-->
+    
+    <ActionItem class="actionitem" 
+    (tap)="showMenu()" 
+        icon="res://menu"
+       ios.position="right"
+       text="Log off"
+       android.position="popup"></ActionItem>
+</ActionBar>
+</Page.actionBar>
+ 
+
+<GridLayout rows="" columns="">
+    <ListView [items]="source" >
+        <template  let-item="item" let-odd="odd" let-even="even">
+          <StackLayout [class.even] = "even" [class.odd] ="odd"> 
+                <Label [text]='"startdate:" + item.startdate' class="list-group-item cmlabel"></Label>
+                <Label [text]='"enddate:" + item.enddate' class="list-group-item cmlabel"></Label>
+                <Label [text]='"description:" + item.title ' class="list-group-item cmlabel" ></Label>
+          </StackLayout>
+        </template>
+    </ListView>
+    
+</GridLayout>

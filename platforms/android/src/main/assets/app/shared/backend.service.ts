@@ -8,6 +8,8 @@ export class BackendService {
 static apiUrl = "http://vpromobilesvc.wobstaging.com/service1.svc/AuthenticateUser";
 static requestUrl = "http://vpromobilesvc.wobstaging.com/service1.svc/GetAssociatedRequest?userid=3507";
 //static apiUrl = "http://vpromobilesvc.wobstaging.com/service1.svc/GetVesseloperator";
+static announcementUrl ="http://vpromobilesvc.wobstaging.com/Service1.svc/GetAnnouncements"
+static calenderUrl ="http://vpromobilesvc.wobstaging.com/Service1.svc/GetEvents?Userid=196"
   static isLoggedIn(): boolean {
     return !!getString("token");
   }

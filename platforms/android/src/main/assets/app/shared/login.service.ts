@@ -47,8 +47,11 @@ login(user: User) {
     .map((response: Response) => { 
                 // login successful if there's a jwt token in the response
                 console.log("RESPONSE: ",response);
+                        
                 var body = response.json();
-                console.log("JSON BODY: ",JSON.stringify(body));}
+                console.log("JSON BODY: ",JSON.stringify(body));
+               
+              }
                 )
                 
     .catch(this.handleErrors);
@@ -89,7 +92,8 @@ let headers = new Headers();
                 // login successful if there's a jwt token in the response
                 console.log("RESPONSE: ",response);
                 var body = response.json();
-                console.log("JSON BODY: ",JSON.stringify(body));}
+                console.log("JSON BODY: ",JSON.stringify(body));
+               alert(JSON.stringify(body));}
                 )
                 
     .catch(this.handleErrors);

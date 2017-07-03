@@ -37,21 +37,32 @@ import { alert, LoginService, User } from "../shared";
     this.isLoading = false;
   }
 
+/**
+ * gotoSRTPage
+ */
+public gotoSRTPage() {
+  this.router.navigate(["srtDetails"])
+}
 loadsrt(){
  // alert("OK");
     if (getConnectionType() === connectionType.none) {
         alert("Oops!! looks like your device is not connected to the internet ");
         return;
       }
-
-      this.LoginService.getAssociatedRequest()
+      
+        this.LoginService.getAssociatedRequest()
         .subscribe(
           (response) => { 
         console.log("Success Response" + response)
+        
         },
-        (error) => { console.log("Error happened" + error)},
+          
+        (error) => { console.log("Error happened", error.message)},
         () => { console.log("srt is completed")
-       alert("LOADED SRT")}
+       }
     );     
+        
+     
+      
   }
  }

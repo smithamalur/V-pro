@@ -10,6 +10,7 @@ import { TextField } from "ui/text-field";
  import { LoginService } from "../shared/login.service";
  import { User } from "../shared/user.model";
  import * as connectivity from "connectivity";
+ import * as utils from "../shared";
  
 
 @Component({
@@ -19,12 +20,16 @@ import { TextField } from "ui/text-field";
   templateUrl: "./login.component.html",
   styleUrls: ["./login.component.css", "./login.css"],
 })
+
+
+
 export class LoginComponent implements OnInit {
   user: User;
-  isLoggingIn = true;
+  //isLoggingIn = true;
   isAuthenticating = false;
   data : any ;
 
+  @ViewChild("password") password: ElementRef;
   constructor(private router: Router,
     private loginService : LoginService,
     private page: Page) {
@@ -35,12 +40,23 @@ export class LoginComponent implements OnInit {
     this.page.actionBarHidden = true;
   }
 
+   focusPassword() {
+    this.password.nativeElement.focus();
+  }
+
  
  submit(){
-    this.isAuthenticating = true;
-     if (this.isLoggingIn) {
+    //this.isAuthenticating = true;
+    // if(!this.user.username && !this.user.password){
+    //   alert("Username or Password cannot be empty");
+    // }
+    if(this.user.username && this.user.password)
+    {
+       this.isAuthenticating = true;
        this.login();
+       
      }
+     else alert("Username and Pasword required");
  }
 
   login() {

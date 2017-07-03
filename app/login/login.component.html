@@ -1,34 +1,41 @@
-<StackLayout #container>
+<StackLayout >
 
-<Image src="res://vessel_pro_logo_nb_large" stretch="none" class="initial-logo"> </Image>
-  <TextField  
+<Image 
+  src="res://vessel_pro_logo_nb_large" 
+  stretch="none" 
+  class="initial-logo"> </Image>
+  
+  <TextField #username 
+    hint="Username"
+    keyboardType="email"
+    returnKeyType="next"
+    (returnPress)="focusPassword()"
+    [(ngModel)]="user.username"
+    [isEnabled]="!isAuthenticating"
+    autocorrect="false" 
+    autocapitalizationType="none"
+    row="0" ></TextField>
 
-  hint="Client ID"
-      keyboardType="email"
-      returnKeyType="next"
-        
-    
-        [(ngModel)]="user.username"
-        [isEnabled]="!isAuthenticating"
-        autocorrect="false"
-        required 
-        autocapitalizationType="none"
-        row="0" >
-  </TextField>
 
-  <TextField
+  <TextField #password
   hint="Password" 
   secure="true" 
+  returnKeyType="done"
   (returnPress)="submit()"
-  [(ngModel)]="user.password">
-  </TextField>
+  [isEnabled]="!isAuthenticating"
+  [(ngModel)]="user.password"> </TextField>
+  
+  
+  <ActivityIndicator
+    [busy]="isAuthenticating"
+    rowSpan="2"></ActivityIndicator>
 
 <Button 
-[isEnabled]="!isAuthenticating"
-text="LOGIN" 
-class="submit-button" 
-(tap)="submit()">
-</Button>
+  [disabled]="!username.valid"
+  [isEnabled]="!isAuthenticating"
+  text="LOGIN" 
+  class="submit-button" 
+  (tap)="submit()"> </Button>
  
 </StackLayout>
 

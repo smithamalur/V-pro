@@ -4,6 +4,7 @@ StackLayout {
   padding-bottom: 15;
   background-color: white;
 }
+
 Image {
   margin-top: 5;
   margin-bottom: 20;
@@ -19,7 +20,7 @@ Button, TextField {
   margin-top: 20;
 }
 .initial-logo {
-  horizontal-align: center;
+  horizantal-align: center;
   margin-bottom: 10;
 }
 
